@@ -1,0 +1,13 @@
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.exe
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.deps.json
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.runtimeconfig.json
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.runtimeconfig.dev.json
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.dll
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\bin\Debug\netcoreapp3.1\CalculodeIR.pdb
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.csprojAssemblyReference.cache
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.AssemblyInfoInputs.cache
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.AssemblyInfo.cs
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.csproj.CoreCompileInputs.cache
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.dll
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.pdb
+B:\C#\Exercicios\CalculodeIR\CalculodeIR\obj\Debug\netcoreapp3.1\CalculodeIR.genruntimeconfig.cache
