@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CalculodeIR
 {
@@ -9,8 +9,12 @@ namespace CalculodeIR
 
         beginin:
 
-            double aluguel, comissao, baseDeCalculo;
             Console.Clear();
+
+
+            //Declaração das variaveis
+            double aluguel, comissao, baseDeCalculo;
+
             Console.WriteLine("Digite o valor do aluguel:");
             Console.Write("R$");
             aluguel = double.Parse(Console.ReadLine());
@@ -18,37 +22,43 @@ namespace CalculodeIR
             Console.Write("R$");
             comissao = double.Parse(Console.ReadLine());
 
+
+            //Base de calculo do imposto
             baseDeCalculo = aluguel - comissao;
-            double quarta = 0.275;
-            double terca = 0.225;
-            double segunda = 0.150;
-            double primeira = 0.075;
 
-            
-            double A = (quarta * baseDeCalculo) - 869.36;
-            double B =(terca * baseDeCalculo) - 636.13;
-            double C = (segunda * baseDeCalculo) - 354.80;
-            double D = (primeira * baseDeCalculo) - 142.80;
+            //Caluclo do imposto
+            var imposto
 
+            if (baseDeCalculo > 4664.67)
+            {
+                imposto = (0.275 * baseDeCalculo) - 869,36;
+            }
 
+            else if (baseDeCalculo > 3751.04 && baseDeCalculo < 4664.68)
+            {
+                imposto = (0.225 * baseDeCalculo) - 636.13;
+            }
 
-            if (baseDeCalculo > 4664.67 && baseDeCalculo < 9999999999999999999)
-                Console.WriteLine("O valor do imposto de renda é: R$" + A.ToString("F2"));
+            else if (baseDeCalculo > 2826.65 && baseDeCalculo < 3751.05)
+            {
+                imposto = (0.150 * baseDeCalculo) - 354.80;
+            }
 
-           if (baseDeCalculo > 3751.04 && baseDeCalculo < 4664.68)
-                Console.WriteLine("O valor do imposto de renda é: R$" + B.ToString("F2"));
+            else if (baseDeCalculo > 1903.98 && baseDeCalculo < 2826.65)
+            {
+                imposto = (0.075 * baseDeCalculo) - 142.80;
+            }
 
-            if (baseDeCalculo > 2826.65 && baseDeCalculo < 3751.05)
-                Console.WriteLine("O valor do imposto de renda é: R$" + C.ToString("F2"));
-
-            if (baseDeCalculo > 1903.98 && baseDeCalculo < 2826.65)
-                Console.WriteLine("O valor do imposto de renda é: R$" + D.ToString("F2"));
-
-            if (baseDeCalculo < 1903.98)
+            else if (baseDeCalculo < 1903.98)
+            {
                 Console.WriteLine("Não tem IR");
+            }
+            else
+            {
+                Console.WriteLine("O Valor do impsto de renda é R$" + imposto)
+            }
             
-
-
+            //Para dar o retorno apos preencher qualquer coisa.
             Console.ReadLine();
             goto beginin;
 
