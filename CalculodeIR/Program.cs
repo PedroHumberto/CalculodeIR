@@ -27,7 +27,7 @@ namespace CalculodeIR
             baseDeCalculo = aluguel - comissao;
 
             //Caluclo do imposto
-            var imposto
+            var imposto;
 
             if (baseDeCalculo > 4664.67)
             {
