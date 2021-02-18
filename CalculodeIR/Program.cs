@@ -17,10 +17,10 @@ namespace CalculodeIR
 
             Console.WriteLine("Digite o valor do aluguel:");
             Console.Write("R$");
-            aluguel = double.Parse(Console.ReadLine());
+            aluguel = double.Parse(Console.ReadLine().Replace(".",","));
             Console.WriteLine("Digite o valor da comissão:");
             Console.Write("R$");
-            comissao = double.Parse(Console.ReadLine());
+            comissao = double.Parse(Console.ReadLine().Replace(".",","));
 
 
             //Base de calculo do imposto
