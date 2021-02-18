@@ -31,7 +31,7 @@ namespace CalculodeIR
 
             if (baseDeCalculo > 4664.67)
             {
-                imposto = (0.275 * baseDeCalculo) - 869,36;
+                imposto = (0.275 * baseDeCalculo) - 869.36;
             }
 
             else if (baseDeCalculo > 3751.04 && baseDeCalculo < 4664.68)
